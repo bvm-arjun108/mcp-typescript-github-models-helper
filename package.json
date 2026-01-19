@@ -1,0 +1,21 @@
+{
+  "name": "mcp-typescript-github-models-helper",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "description": "MCP server in TypeScript for listing and comparing GitHub Models.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.5.0",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3"
+  }
+}
